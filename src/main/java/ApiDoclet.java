@@ -1,5 +1,7 @@
 import com.sun.javadoc.*;
 
+import java.util.Arrays;
+
 /**
  * test class
  *
@@ -7,16 +9,17 @@ import com.sun.javadoc.*;
  * @date : 2022/10/19 2:06 PM
  * Email : zephyrjung@126.com
  **/
+@Api
 public class ApiDoclet extends Doclet {
     /**
      * testInteger
      * @example 1
      */
-    private Integer testInteger;
+    public Integer testInteger;
     /**
      * testString
      */
-    private final static String testString = "aaa";
+    public final static String testString = "aaa";
 
     /**
      * test method
